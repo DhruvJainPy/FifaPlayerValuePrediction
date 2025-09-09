@@ -51,7 +51,7 @@ with tab2:
     st.header("🔍 Exploratory Data Analysis")
 
     st.subheader("Correlation Heatmap")
-    st.image("assets/correlation.png", caption="Correlation Matrix of Features", width='stretch')
+    st.image("assets/Correlation.png", caption="Correlation Matrix of Features", width='stretch')
 
     st.subheader("Distribution of Market Value (€)")
     fig, ax = plt.subplots()
